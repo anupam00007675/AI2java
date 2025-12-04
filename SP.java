@@ -18,8 +18,8 @@ public class SP
         float discount = 0;
         if (category == 'A'){
             discount = 60;
-    
-        }
+            
+       }
         else if (category == 'B'){
             discount = 40;
         }
@@ -27,6 +27,7 @@ public class SP
             discount = 20;
         }
         else if (category == 'D'){
+            
             discount = 10;
         }
         else {
@@ -38,12 +39,5 @@ public class SP
         System.out.print("The selling price after discount :"+sellingPrice);
         input.close();
         
-        
-        
-        
-        
-        
-        
-        
-    }
+        }
 }
